@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsEFDatos", "WindowsEFDatos\WindowsEFDatos.csproj", "{2CC10DF5-0C8A-4D32-9D32-764169F69D3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibTransportes", "LibTransportes\LibTransportes.csproj", "{8BFF2FE5-BC47-462C-A1BA-9701E600362B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentacionVehiculos", "PresentacionVehiculos\PresentacionVehiculos.csproj", "{18C914EE-E37E-4D45-AE8A-22982D402CAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2CC10DF5-0C8A-4D32-9D32-764169F69D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CC10DF5-0C8A-4D32-9D32-764169F69D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CC10DF5-0C8A-4D32-9D32-764169F69D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BFF2FE5-BC47-462C-A1BA-9701E600362B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFF2FE5-BC47-462C-A1BA-9701E600362B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFF2FE5-BC47-462C-A1BA-9701E600362B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BFF2FE5-BC47-462C-A1BA-9701E600362B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C914EE-E37E-4D45-AE8A-22982D402CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C914EE-E37E-4D45-AE8A-22982D402CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C914EE-E37E-4D45-AE8A-22982D402CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C914EE-E37E-4D45-AE8A-22982D402CAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

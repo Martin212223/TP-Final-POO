@@ -23,6 +23,8 @@ namespace LibTransportes.Entidades
 
         public bool TransportaAlExterior { get; set; }
 
+        public Remolque Remolque { get; set; }
+
         public override string Acelerar()
         {
             return "Acelera con mucho ruido y lentamente.";
@@ -31,6 +33,17 @@ namespace LibTransportes.Entidades
         public override string Frenar()
         {
             return "Frena con mucha distancia al ser más pesado.";
+        }
+
+        public string QuitarRemolque(Remolque remolque)
+        {
+            remolque = null;
+
+            if (remolque == null)
+            {
+                return "El remolque ha sido quitado.";
+            }
+            return "No se ha quitado el remolque.";
         }
     }
 }
