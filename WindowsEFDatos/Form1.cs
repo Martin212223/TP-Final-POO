@@ -41,6 +41,9 @@ namespace WindowsEFDatos
             txtCapAvion.Text= string.Empty;
             txtDenAvion.Text= string.Empty;
             //comboLineaAerea.SelectedIndex = 0;
+            txtIdAvion.Text= string.Empty;
+            txtNameLineaAerea.Text= string.Empty;
+            dateLineaAerea.Text = string.Empty;
         }
 
         private void RellenarComboLinea()
@@ -99,6 +102,56 @@ namespace WindowsEFDatos
 
                 MessageBox.Show("Línea aérea guardada con éxito.");
             }
+        }
+
+        private void btnEditarAvion_Click(object sender, EventArgs e)
+        {
+            Avion avion = new Avion()
+            {
+                IdAvion = Convert.ToInt32(txtIdAvion.Text),
+                Capacidad = Convert.ToInt32(txtCapAvion.Text),
+                Denominacion = txtDenAvion.Text,
+                IdLinea = obtenerIdLinea()
+            };
+
+            AbmAvion.Editar(avion);
+
+            MostrarAvionesGrid();
+
+            LimpiarTextBox();
+        }
+
+        private void btnBuscarIdAvion_Click(object sender, EventArgs e)
+        {
+            List<Avion> aviones = new List<Avion>();
+
+            aviones.Add(AbmAvion.TraerUno(Convert.ToInt32(txtIdAvion.Text)));
+
+            gridAviones.DataSource = aviones;
+
+            LimpiarTextBox();
+        }
+
+        private void btnEliminarAvion_Click(object sender, EventArgs e)
+        {
+            Avion avion = new Avion()
+            {
+                IdAvion = Convert.ToInt32(txtIdAvion.Text),
+                Capacidad = Convert.ToInt32(txtCapAvion.Text),
+                Denominacion = txtDenAvion.Text,
+                IdLinea = obtenerIdLinea()
+            };
+
+            AbmAvion.Eliminar(avion);
+
+            MostrarAvionesGrid();
+
+            LimpiarTextBox();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MostrarAvionesGrid();
         }
     }
 }

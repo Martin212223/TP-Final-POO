@@ -47,15 +47,16 @@
             this.label7 = new System.Windows.Forms.Label();
             this.dateLineaAerea = new System.Windows.Forms.DateTimePicker();
             this.btnInsertarLinea = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gridAviones)).BeginInit();
             this.SuspendLayout();
             // 
             // gridAviones
             // 
             this.gridAviones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridAviones.Location = new System.Drawing.Point(280, 6);
+            this.gridAviones.Location = new System.Drawing.Point(283, 12);
             this.gridAviones.Name = "gridAviones";
-            this.gridAviones.Size = new System.Drawing.Size(240, 150);
+            this.gridAviones.Size = new System.Drawing.Size(358, 150);
             this.gridAviones.TabIndex = 0;
             // 
             // label1
@@ -125,7 +126,7 @@
             // 
             // btnInsertarAvion
             // 
-            this.btnInsertarAvion.Location = new System.Drawing.Point(50, 133);
+            this.btnInsertarAvion.Location = new System.Drawing.Point(7, 130);
             this.btnInsertarAvion.Name = "btnInsertarAvion";
             this.btnInsertarAvion.Size = new System.Drawing.Size(86, 23);
             this.btnInsertarAvion.TabIndex = 9;
@@ -135,30 +136,33 @@
             // 
             // btnEditarAvion
             // 
-            this.btnEditarAvion.Location = new System.Drawing.Point(142, 133);
+            this.btnEditarAvion.Location = new System.Drawing.Point(99, 130);
             this.btnEditarAvion.Name = "btnEditarAvion";
             this.btnEditarAvion.Size = new System.Drawing.Size(86, 23);
             this.btnEditarAvion.TabIndex = 10;
             this.btnEditarAvion.Text = "Editar";
             this.btnEditarAvion.UseVisualStyleBackColor = true;
+            this.btnEditarAvion.Click += new System.EventHandler(this.btnEditarAvion_Click);
             // 
             // btnBuscarIdAvion
             // 
-            this.btnBuscarIdAvion.Location = new System.Drawing.Point(50, 162);
+            this.btnBuscarIdAvion.Location = new System.Drawing.Point(7, 159);
             this.btnBuscarIdAvion.Name = "btnBuscarIdAvion";
             this.btnBuscarIdAvion.Size = new System.Drawing.Size(86, 23);
             this.btnBuscarIdAvion.TabIndex = 11;
             this.btnBuscarIdAvion.Text = "Buscar por Id";
             this.btnBuscarIdAvion.UseVisualStyleBackColor = true;
+            this.btnBuscarIdAvion.Click += new System.EventHandler(this.btnBuscarIdAvion_Click);
             // 
             // btnEliminarAvion
             // 
-            this.btnEliminarAvion.Location = new System.Drawing.Point(142, 162);
+            this.btnEliminarAvion.Location = new System.Drawing.Point(99, 159);
             this.btnEliminarAvion.Name = "btnEliminarAvion";
             this.btnEliminarAvion.Size = new System.Drawing.Size(86, 23);
             this.btnEliminarAvion.TabIndex = 12;
             this.btnEliminarAvion.Text = "Eliminar";
             this.btnEliminarAvion.UseVisualStyleBackColor = true;
+            this.btnEliminarAvion.Click += new System.EventHandler(this.btnEliminarAvion_Click);
             // 
             // label5
             // 
@@ -172,18 +176,19 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(190, 204);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(47, 204);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(151, 16);
+            this.label6.Size = new System.Drawing.Size(566, 15);
             this.label6.TabIndex = 14;
-            this.label6.Text = "Insertar Línea Aérea:";
+            this.label6.Text = "Insertar Línea Aérea (No colocar espacios, de ser necesaria separación, usar guio" +
+    "nes):";
             // 
             // txtNameLineaAerea
             // 
             this.txtNameLineaAerea.Location = new System.Drawing.Point(193, 235);
             this.txtNameLineaAerea.Name = "txtNameLineaAerea";
-            this.txtNameLineaAerea.Size = new System.Drawing.Size(121, 20);
+            this.txtNameLineaAerea.Size = new System.Drawing.Size(200, 20);
             this.txtNameLineaAerea.TabIndex = 15;
             // 
             // label7
@@ -204,7 +209,7 @@
             // 
             // btnInsertarLinea
             // 
-            this.btnInsertarLinea.Location = new System.Drawing.Point(392, 233);
+            this.btnInsertarLinea.Location = new System.Drawing.Point(468, 254);
             this.btnInsertarLinea.Name = "btnInsertarLinea";
             this.btnInsertarLinea.Size = new System.Drawing.Size(145, 23);
             this.btnInsertarLinea.TabIndex = 18;
@@ -212,11 +217,22 @@
             this.btnInsertarLinea.UseVisualStyleBackColor = true;
             this.btnInsertarLinea.Click += new System.EventHandler(this.btnInsertarLinea_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(191, 130);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(86, 23);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "Mostrar todos";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmAvion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(549, 328);
+            this.ClientSize = new System.Drawing.Size(653, 328);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnInsertarLinea);
             this.Controls.Add(this.dateLineaAerea);
             this.Controls.Add(this.label7);
@@ -266,6 +282,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.DateTimePicker dateLineaAerea;
         private System.Windows.Forms.Button btnInsertarLinea;
+        private System.Windows.Forms.Button button1;
     }
 }
 

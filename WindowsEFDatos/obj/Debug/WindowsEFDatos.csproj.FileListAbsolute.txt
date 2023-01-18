@@ -16,3 +16,4 @@ C:\Users\Alternativa\Desktop\TP Final POO\SLNPOOQuirogaMartin\WindowsEFDatos\obj
 C:\Users\Alternativa\Desktop\TP Final POO\SLNPOOQuirogaMartin\WindowsEFDatos\obj\Debug\WindowsEFDatos.Migrations.initial.resources
 C:\Users\Alternativa\Desktop\TP Final POO\SLNPOOQuirogaMartin\WindowsEFDatos\obj\Debug\WindowsEFDatos.frmAvion.resources
 C:\Users\Alternativa\Desktop\TP Final POO\SLNPOOQuirogaMartin\WindowsEFDatos\obj\Debug\WindowsEFDatos.Migrations.segundaMigracion.resources
+C:\Users\Alternativa\Desktop\TP Final POO\SLNPOOQuirogaMartin\WindowsEFDatos\obj\Debug\WindowsEFDatos.Migrations.faltaEliminar.resources
