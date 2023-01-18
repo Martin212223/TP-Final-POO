@@ -9,6 +9,20 @@ namespace LibTransportes.Entidades
 {
     public class AutoElectrico : Vehiculo
     {
+
+        public AutoElectrico() { }
+
+        public AutoElectrico(string marca, int cantidadPuertas, string tipo, string origen):base(marca, cantidadPuertas)
+        {
+            Tipo = tipo;
+
+            Origen = origen;
+        }
+
+        public string Tipo { get; set; }
+
+        public string Origen { get; set; }
+
         public override string Acelerar()
         {
             return "Acelera en silencio al no tener motor de combustión interna.";
