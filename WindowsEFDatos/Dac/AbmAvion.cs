@@ -48,18 +48,24 @@ namespace WindowsEFDatos.Dac
             return 0;
         }
 
-        public static int Eliminar(Avion avion)
+        public static int Eliminar(int id)
         {
-            Avion avionOrigen = context.Aviones.Find(avion.IdAvion);
+            //Avion avionOrigen = context.Aviones.Find(avion.IdAvion);
 
-            if (avionOrigen != null)
-            {
-                context.Aviones.Remove(avionOrigen);
+            //if (avionOrigen != null)
+            //{
+            //    context.Aviones.Remove(avionOrigen);
 
-                return context.SaveChanges();
-            }
+            //    return context.SaveChanges();
+            //}
 
-            return 0;
+            //return 0;
+
+            
+
+            context.Aviones.Remove(context.Aviones.Find(id));
+
+            return context.SaveChanges();
         }
     }
 }

@@ -134,15 +134,9 @@ namespace WindowsEFDatos
 
         private void btnEliminarAvion_Click(object sender, EventArgs e)
         {
-            Avion avion = new Avion()
-            {
-                IdAvion = Convert.ToInt32(txtIdAvion.Text),
-                Capacidad = Convert.ToInt32(txtCapAvion.Text),
-                Denominacion = txtDenAvion.Text,
-                IdLinea = obtenerIdLinea()
-            };
+            
 
-            AbmAvion.Eliminar(avion);
+            AbmAvion.Eliminar(Convert.ToInt32(txtIdAvion.Text));
 
             MostrarAvionesGrid();
 
