@@ -25,5 +25,10 @@ namespace LibTransportes.Entidades.Base
         public abstract string Acelerar();
 
         public abstract string Frenar();
+
+        public virtual string Imprimir()
+        {
+            return "El vehículo se utiliza para transporte.";
+        }
     }
 }

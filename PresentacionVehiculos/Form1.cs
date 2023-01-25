@@ -28,7 +28,7 @@ namespace PresentacionVehiculos
                 Remolque = remolque
             };
 
-            MessageBox.Show("•Marca: " + camion.Marca + "\n•Cantidad de puertas: " + camion.CantidadPuertas.ToString() + "\n•¿Tiene claxon?: " + camion.Claxon.ToString() + "\n•¿Transporta carga al extranjero?: " + camion.TransportaAlExterior.ToString());
+            MessageBox.Show(camion.Imprimir());
 
         }
 
@@ -55,7 +55,7 @@ namespace PresentacionVehiculos
         {
             AutoElectrico autoElectrico = new AutoElectrico("Chevrolet", 5, "Familiar", "Importado");
 
-            MessageBox.Show("Marca: " + autoElectrico.Marca + "\nCantidad de puertas: " + autoElectrico.CantidadPuertas.ToString() + "\nTipo de auto: " + autoElectrico.Tipo + "\nOrígen: " + autoElectrico.Origen);
+            MessageBox.Show(autoElectrico.Imprimir());
         }
     }
 }

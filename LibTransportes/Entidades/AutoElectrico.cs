@@ -32,5 +32,10 @@ namespace LibTransportes.Entidades
         {
             return "Frena con mayor estabilidad y control al tener un mecanismo distinto por ser eléctrico.";
         }
+
+        public override string Imprimir()
+        {
+            return base.Imprimir() + "\nMarca: " + Marca + "\nCantidad de puertas: " + CantidadPuertas.ToString() + "\nTipo de auto: " + Tipo + "\nOrígen: " + Origen;
+        }
     }
 }

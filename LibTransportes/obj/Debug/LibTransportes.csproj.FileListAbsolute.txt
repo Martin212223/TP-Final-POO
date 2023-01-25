@@ -4,3 +4,9 @@ C:\Users\Alternativa\Desktop\TP Final POO\SLNPOOQuirogaMartin\LibTransportes\obj
 C:\Users\Alternativa\Desktop\TP Final POO\SLNPOOQuirogaMartin\LibTransportes\obj\Debug\LibTransportes.csproj.CoreCompileInputs.cache
 C:\Users\Alternativa\Desktop\TP Final POO\SLNPOOQuirogaMartin\LibTransportes\obj\Debug\LibTransportes.dll
 C:\Users\Alternativa\Desktop\TP Final POO\SLNPOOQuirogaMartin\LibTransportes\obj\Debug\LibTransportes.pdb
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\LibTransportes\bin\Debug\LibTransportes.dll
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\LibTransportes\bin\Debug\LibTransportes.pdb
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\LibTransportes\obj\Debug\LibTransportes.csproj.AssemblyReference.cache
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\LibTransportes\obj\Debug\LibTransportes.csproj.CoreCompileInputs.cache
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\LibTransportes\obj\Debug\LibTransportes.dll
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\LibTransportes\obj\Debug\LibTransportes.pdb

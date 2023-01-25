@@ -12,3 +12,17 @@ C:\Users\Alternativa\Desktop\TP Final POO\SLNPOOQuirogaMartin\PresentacionVehicu
 C:\Users\Alternativa\Desktop\TP Final POO\SLNPOOQuirogaMartin\PresentacionVehiculos\obj\Debug\PresentacionVehiculos.csproj.CopyComplete
 C:\Users\Alternativa\Desktop\TP Final POO\SLNPOOQuirogaMartin\PresentacionVehiculos\obj\Debug\PresentacionVehiculos.exe
 C:\Users\Alternativa\Desktop\TP Final POO\SLNPOOQuirogaMartin\PresentacionVehiculos\obj\Debug\PresentacionVehiculos.pdb
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\PresentacionVehiculos\bin\Debug\PresentacionVehiculos.exe.config
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\PresentacionVehiculos\bin\Debug\PresentacionVehiculos.exe
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\PresentacionVehiculos\bin\Debug\PresentacionVehiculos.pdb
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\PresentacionVehiculos\bin\Debug\LibTransportes.dll
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\PresentacionVehiculos\bin\Debug\LibTransportes.pdb
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\PresentacionVehiculos\obj\Debug\PresentacionVehiculos.csproj.AssemblyReference.cache
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\PresentacionVehiculos\obj\Debug\PresentacionVehiculos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\PresentacionVehiculos\obj\Debug\PresentacionVehiculos.Form1.resources
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\PresentacionVehiculos\obj\Debug\PresentacionVehiculos.Properties.Resources.resources
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\PresentacionVehiculos\obj\Debug\PresentacionVehiculos.csproj.GenerateResource.cache
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\PresentacionVehiculos\obj\Debug\PresentacionVehiculos.csproj.CoreCompileInputs.cache
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\PresentacionVehiculos\obj\Debug\PresentacionVehiculos.csproj.CopyComplete
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\PresentacionVehiculos\obj\Debug\PresentacionVehiculos.exe
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados 3er curso\1 - Programación Web NET Core\14 - TP Final POO\SLNPOOQuirogaMartin\PresentacionVehiculos\obj\Debug\PresentacionVehiculos.pdb

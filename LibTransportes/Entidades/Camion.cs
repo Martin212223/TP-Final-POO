@@ -35,6 +35,11 @@ namespace LibTransportes.Entidades
             return "Frena con mucha distancia al ser más pesado.";
         }
 
+        public override string Imprimir()
+        {
+            return base.Imprimir() + "\n•Marca: " + Marca + "\n•Cantidad de puertas: " + CantidadPuertas.ToString() + "\n•¿Tiene claxon?: " + Claxon.ToString() + "\n•¿Transporta carga al extranjero?: " + TransportaAlExterior.ToString();
+        }
+
         public string QuitarRemolque(Remolque remolque)
         {
             remolque = null;
